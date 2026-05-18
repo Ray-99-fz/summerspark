@@ -55,7 +55,7 @@ export function WaitlistModal({
     };
 
     try {
-      const response = await fetch(`${APIURL}/api`, {
+      const response = await fetch(`${APIURL}/api/create-registration`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
