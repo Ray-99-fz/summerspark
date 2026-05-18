@@ -5,25 +5,25 @@ import { WaitlistModal } from './WaitlistModal';
 const programs = [
   {
     title: 'Introduction to 3D in Blender',
-    instructor: 'Master Digital Artist',
+    instructor: 'Master Digital Artist, Rafiki Nigel Moyo',
     description: 'Learn 3D modeling, texturing, and rendering. Create stunning 3D artwork from scratch.',
     theme: 'blender' as const
   },
   {
     title: 'Introduction to Dynamic Sketching',
-    instructor: 'Professional Illustrator',
+    instructor: 'Professional Illustrator, Tumpale Chawinga',
     description: 'Master the fundamentals of drawing with energy, movement, and expression.',
     theme: 'sketching' as const
   },
   {
     title: 'Introduction to Game Development',
-    instructor: 'Game Design Expert',
+    instructor: 'Game Design Expert, Nyasha Mpinda',
     description: 'Build your first video game and learn the basics of interactive storytelling.',
     theme: 'gamedev' as const
   },
   {
     title: 'Introduction to Traditional Portraiture',
-    instructor: 'Portrait Artist',
+    instructor: 'Portrait Artist, Tumpale Chawinga',
     description: 'Capture the human form with traditional drawing and painting techniques.',
     theme: 'portraiture' as const
   }
